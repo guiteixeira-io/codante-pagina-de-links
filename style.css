@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 *{
  margin: 0;
  padding: 0;
@@ -10,7 +13,7 @@
  align-items: center;
  height: 100dvh;
  width: 100vw;
-
+ font-family: "Arvo", serif;
 }
 
 .background{
@@ -21,5 +24,66 @@
 }
 
 .card{
- 
+ border-radius: 19px;
+ border: 3px solid #EB53BC;
+ background: rgb(255 255 255 / 0.81);
+ padding:  52px 10px;
+ width: 516px;
+ text-align: center;
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 66px;
+}
+
+.card-header_profile-image{
+ width: 50%;
+ height: auto;
+ text-align: center;
+}
+
+.card-header{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+ gap: 10px;
+}
+
+ul{
+ list-style-type: none;
+}
+
+button{
+ width: 300px;
+ height: 75px;
+ padding: 10px;
+ margin: 10px; 
+ border-radius: 10px;
+ border-color: #EB53BC;
+ background-color: #000052;
+ color: white;
+ font-family: "arvo", serif ;
+}
+
+i{
+ color: #000052;
+}
+
+.card_social_links li{
+ font-size: 50px;
+ display: inline-block;
+ margin: 10px;
+}
+
+@media (max-width: 768px) {
+ .card {
+     width: 100vw;
+     height: 100vh;
+     padding-top: 0%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 }

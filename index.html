@@ -6,9 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página de Links</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body class="app background">
-    <article class="card"></article>
+    <article class="card">
+      <section class="card-header">
+        <img
+          class="card-header_profile-image"
+          src="public/profile.png"
+          alt="Imagem de perfil Guilherme Santos"
+        />
+        <h1 class="card-header_name">
+          Guilherme<span class="card-header_last-name">Santos</span>
+        </h1>
+        <p>Desenvolvedor Full Stack</p>
+      </section>
+
+      <ul class="card_links">
+        <li><button>Meu último projeto</button></li>
+        <li><button>Meu ultimo post</button></li>
+        <li><button>Meu curso</button></li>
+      </ul>
+      <ul class="card_social_links">
+        <li>
+          <a href="https://www.linkedin.com/in/guilherme-teixeira-santos/"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/guisantos.io/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/guiteixeira-io"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </article>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
